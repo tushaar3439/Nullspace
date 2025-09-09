@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar'
 import { BrowserRouter , Route, Routes } from 'react-router-dom'
 import Search from './Components/Search'
 import Footer from './Components/Footer'
+import Home from './Pages/Home'
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
       <Navbar/>
       
       <Routes>
-        <Route path='/' element={<h1>home page</h1>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<h1>about page</h1>}/>
         <Route path='/contact' element={<h1>contact page</h1>}/>
         <Route path='/events' element={<h1>events page</h1>}/>
