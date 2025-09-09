@@ -28,7 +28,7 @@ const Navbar = () => {
           to={"/about"} 
           className={({ isActive }) =>
             isActive 
-              ? "font-bold underline text-white  bg-blue-600/60 rounded-2xl px-3 py-1" 
+              ? "font-bold text-white  bg-blue-600/60 rounded-2xl px-3 py-1" 
               : "hover:text-gray-200 transition hover:bg-blue-600/30 px-3 py-1 rounded-2xl"
           }
         >
@@ -38,7 +38,7 @@ const Navbar = () => {
           to={"/contact"} 
           className={({ isActive }) =>
             isActive 
-              ? "font-bold underline text-white bg-blue-600/60 rounded-2xl px-3 py-1" 
+              ? "font-bold text-white bg-blue-600/60 rounded-2xl px-3 py-1" 
               : "hover:text-gray-200 transition hover:bg-blue-600/30 px-3 py-1 rounded-2xl"
           }
         >
@@ -48,7 +48,7 @@ const Navbar = () => {
           to={"/events"} 
           className={({ isActive }) =>
             isActive 
-              ? "font-bold underline text-white bg-blue-600/60 rounded-2xl px-3 py-1" 
+              ? "font-bold text-white bg-blue-600/60 rounded-2xl px-3 py-1" 
               : "hover:text-gray-200 transition hover:bg-blue-600/30 px-3 py-1 rounded-2xl"
           }
         >

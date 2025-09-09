@@ -4,14 +4,14 @@ const Home = () => {
   
   {/* Left Content */}
   <div className="flex-1">
-    <h1 className="text-5xl font-bold mb-4">Transform Your Body, Transform Your Life</h1>
-    <p className="text-lg mb-6">Join Nullspace Fitness today and unlock your true potential.</p>
+    <h1 className="text-5xl font-bold mb-4">Connect, Showcase, and Grow Your Sports Career</h1>
+    <p className="text-lg mb-6">Join the ultimate network for athletes, coaches, and sports professionals worldwide.</p>
     <div className="flex gap-4">
-      <button className="px-6 py-3 bg-gradient-to-r from-red-600 to-orange-500 rounded-lg font-semibold">
-        Join Now
+      <button className="px-6 py-3 bg-gradient-to-r from-red-600 to-orange-500 rounded-lg font-semibold hover:scale-105 transition-transform">
+        Create Your Profile
       </button>
       <button className="px-6 py-3 border border-white rounded-lg">
-        Learn More
+        Explore Athletes
       </button>
     </div>
   </div>
@@ -21,5 +21,6 @@ const Home = () => {
     <img src="/FitnessModel.png" alt="Fitness model" className="max-h-[500px] object-contain" />
   </div>
 </section>
+
   )}
 export default Home;
