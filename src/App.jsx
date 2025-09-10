@@ -2,10 +2,11 @@
 import './App.css'
 import Navbar from './Components/Navbar'
 import { BrowserRouter , Route, Routes } from 'react-router-dom'
-import Search from './Components/Search'
 import Footer from './Components/Footer'
 import Home from './Pages/Home'
 import About from './Pages/About'
+import Opportunities from './Pages/Opportunities'
+import Login from './Pages/Login'
 
 function App() {
 
@@ -22,11 +23,11 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<h1>contact page</h1>}/>
-        <Route path='/events' element={<h1>events page</h1>}/>
+        <Route path='/Opportunities' element={<Opportunities/>}/>
         <Route path='/create' element={<h1>create page</h1>}/>
         <Route path='/profile' element={<h1>profile page</h1>}/>
         <Route path='/setting' element={<h1>setting page</h1>}/>
-        <Route path='/login' element={<h1>login</h1>}/>
+        <Route path='/login' element={<Login/>}/>
       </Routes>
       
       <Footer/>

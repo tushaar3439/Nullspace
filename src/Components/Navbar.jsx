@@ -45,14 +45,14 @@ const Navbar = () => {
           Services
         </NavLink>
         <NavLink 
-          to={"/events"} 
+          to={"/Opportunities"} 
           className={({ isActive }) =>
             isActive 
               ? "font-bold text-white bg-blue-600/60 rounded-2xl px-3 py-1" 
               : "hover:text-gray-200 transition hover:bg-blue-600/30 px-3 py-1 rounded-2xl"
           }
         >
-          Events
+          Opportunities
         </NavLink>
       </div>
 
