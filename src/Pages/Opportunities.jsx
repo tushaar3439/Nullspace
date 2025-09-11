@@ -31,18 +31,59 @@ const Opportunities = () => {
          </div>
         </div>
    
-       <div className="w-full h-screen relative top-[-120px] left-0 bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white">
+       <div className="w-full h-[130vh] relative top-[-120px] left-0 bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white">
        
-       <div className="py-8 mb-10 w-full flex justify-center items-center text-4xl font-bold border-r-0 border-l-0 border-gray-700 border-1 bg-black/60 backdrop-blur-md">
+       <div className="py-8 mb-10 w-full flex justify-center items-center text-5xl font-bold border-r-0 border-l-0 border-gray-700 border-1 bg-black/60 backdrop-blur-md">
        Opportunities to Level Up
        </div>
 
-       <div className="px-12 w-full ">
+       <div className="px-12 w-full flex justify-center items-center">
         
-        <div className="flex gap-10">
-        <div className="md:w-1/3 rounded-md shadow-md shadow-gray-500/50 h-[200px]">hhkuwrgkfjhkjrgi lorem*20</div>
-       <div className="md:w-1/3 ">kfdjsvlkes</div>
-       <div className="md:w-1/3">jlfkjleh</div>
+        <div className="justify-evenly grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
+
+
+        <div className=" rounded-md shadow-md shadow-gray-500/50 p-4 flex flex-col items-center justify-center">
+        
+        <div className="text-[28px] font-bold px-4">Events & Tournaments</div>
+        <div className="text-[20px] text-center">"Stay Ahead with the Latest Sports Events"</div>
+        <div className="">Never miss a chance to compete. Browse local, national, and international sports tournaments. Register directly, showcase your skills.</div>
+        
+        </div>
+       <div className=" rounded-md shadow-md shadow-gray-500/50 p-4 flex flex-col items-center justify-center">
+       
+       <div className="text-[24px] font-bold text-center px-4">Jobs & Career Openings</div>
+       <div className="text-[20px] text-center">"Kickstart or Grow Your Sports Career"</div>
+        <div className="">Explore exclusive career opportunities in the sports industry. From coaching roles and fitness training jobs to internships with top clubs and organizations, find the right path for your journey.</div>
+       
+       </div>
+       <div className=" rounded-md shadow-md shadow-gray-500/50 p-4 flex flex-col items-center justify-center">
+       
+       <div className="text-[24px] font-bold text-center py-4">Training Programs & Workshops</div>
+       <div className="text-[20px] text-center">"Stay Ahead with the Latest Sports Events"</div>
+        <div className="">Never miss a chance to compete. Browse local, national, and international sports tournaments. Register directly, showcase your skills.</div>
+       
+       </div>
+       <div className=" rounded-md shadow-md shadow-gray-500/50 p-4 flex flex-col items-center justify-center">
+       
+       <div className="text-[24px] font-bold text-center py-4">Scholarships & Sponsorships</div>
+       <div className="text-[20px] text-center">"Stay Ahead with the Latest Sports Events"</div>
+        <div className="">Never miss a chance to compete. Browse local, national, and international sports tournaments. Register directly, showcase your skills.</div>
+       
+       </div>
+       <div className=" rounded-md shadow-md shadow-gray-500/50 p-4 flex flex-col items-center justify-center">
+       
+       <div className="text-[24px] font-bold text-center py-4">Networking & Collaborations</div>
+       <div className="text-[20px] text-center">"Stay Ahead with the Latest Sports Events"</div>
+        <div className="">Never miss a chance to compete. Browse local, national, and international sports tournaments. Register directly, showcase your skills.</div>
+       
+       </div>
+       <div className=" rounded-md shadow-md shadow-gray-500/50 p-4 flex flex-col items-center justify-center">
+       
+       <div className="text-[24px] font-bold text-center py-4">Success Stories & Spotlights</div>
+       <div className="text-[20px] text-center">"Stay Ahead with the Latest Sports Events"</div>
+        <div className="">Never miss a chance to compete. Browse local, national, and international sports tournaments. Register directly, showcase your skills.</div>
+       
+       </div>
 
        </div>
 
