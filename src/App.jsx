@@ -7,6 +7,7 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import Opportunities from './Pages/Opportunities'
 import Login from './Pages/Login'
+import Services from './Pages/Services'
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
-        <Route path='/contact' element={<h1>contact page</h1>}/>
+        <Route path='/services' element={<Services/>}/>
         <Route path='/Opportunities' element={<Opportunities/>}/>
         <Route path='/create' element={<h1>create page</h1>}/>
         <Route path='/profile' element={<h1>profile page</h1>}/>
