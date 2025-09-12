@@ -1,5 +1,9 @@
 import Spline from '@splinetool/react-spline';
-
+import { HiOutlineTrophy } from "react-icons/hi2";
+import { IoBriefcaseSharp } from "react-icons/io5";
+import { FaDumbbell, FaGraduationCap } from "react-icons/fa6";
+import { FaHandshake } from "react-icons/fa";
+import { GiStairsGoal } from "react-icons/gi";
 
 const Opportunities = () => {
     return(
@@ -42,43 +46,49 @@ const Opportunities = () => {
         <div className="justify-evenly grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
 
 
-        <div className=" rounded-md shadow-md shadow-gray-500/50 p-4 flex flex-col items-center justify-center">
-        
+        <div className=" rounded-md shadow-md shadow-gray-500/50 p-4 flex flex-col items-center justify-center transition-all duration-500 ease-in-out
+  hover:bg-gradient-to-b hover:from-black hover:via-[#180020] hover:to-[#2a002f]">
+        <div className="text-[50px]"><HiOutlineTrophy/></div>
         <div className="text-[28px] font-bold px-4">Events & Tournaments</div>
         <div className="text-[20px] text-center">"Stay Ahead with the Latest Sports Events"</div>
         <div className="">Never miss a chance to compete. Browse local, national, and international sports tournaments. Register directly, showcase your skills.</div>
         
         </div>
-       <div className=" rounded-md shadow-md shadow-gray-500/50 p-4 flex flex-col items-center justify-center">
-       
+       <div className=" rounded-md shadow-md shadow-gray-500/50 p-4 flex flex-col items-center justify-center transition-all duration-500 ease-in-out
+  hover:bg-gradient-to-b hover:from-black hover:via-[#180020] hover:to-[#2a002f]">
+       <div className="text-[50px]"><IoBriefcaseSharp/></div>
        <div className="text-[24px] font-bold text-center px-4">Jobs & Career Openings</div>
        <div className="text-[20px] text-center">"Kickstart or Grow Your Sports Career"</div>
         <div className="">Explore exclusive career opportunities in the sports industry. From coaching roles and fitness training jobs to internships with top clubs and organizations, find the right path for your journey.</div>
        
        </div>
-       <div className=" rounded-md shadow-md shadow-gray-500/50 p-4 flex flex-col items-center justify-center">
-       
-       <div className="text-[24px] font-bold text-center py-4">Training Programs & Workshops</div>
+       <div className=" rounded-md shadow-md shadow-gray-500/50 p-4 flex flex-col items-center justify-center transition-all duration-500 ease-in-out
+  hover:bg-gradient-to-b hover:from-black hover:via-[#180020] hover:to-[#2a002f]">
+       <div className="text-[50px]"><FaDumbbell/></div>
+       <div className="text-[24px] font-bold text-center py-4">Training Programs</div>
        <div className="text-[20px] text-center">"Stay Ahead with the Latest Sports Events"</div>
         <div className="">Never miss a chance to compete. Browse local, national, and international sports tournaments. Register directly, showcase your skills.</div>
        
        </div>
-       <div className=" rounded-md shadow-md shadow-gray-500/50 p-4 flex flex-col items-center justify-center">
-       
+       <div className=" rounded-md shadow-md shadow-gray-500/50 p-4 flex flex-col items-center justify-center transition-all duration-500 ease-in-out
+  hover:bg-gradient-to-b hover:from-black hover:via-[#180020] hover:to-[#2a002f]">
+       <div className="text-[50px]"><FaGraduationCap/></div>
        <div className="text-[24px] font-bold text-center py-4">Scholarships & Sponsorships</div>
        <div className="text-[20px] text-center">"Stay Ahead with the Latest Sports Events"</div>
         <div className="">Never miss a chance to compete. Browse local, national, and international sports tournaments. Register directly, showcase your skills.</div>
        
        </div>
-       <div className=" rounded-md shadow-md shadow-gray-500/50 p-4 flex flex-col items-center justify-center">
-       
+       <div className=" rounded-md shadow-md shadow-gray-500/50 p-4 flex flex-col items-center justify-center transition-all duration-500 ease-in-out
+  hover:bg-gradient-to-b hover:from-black hover:via-[#180020] hover:to-[#2a002f]">
+       <div className="text-[50px]"><FaHandshake/></div>
        <div className="text-[24px] font-bold text-center py-4">Networking & Collaborations</div>
        <div className="text-[20px] text-center">"Stay Ahead with the Latest Sports Events"</div>
         <div className="">Never miss a chance to compete. Browse local, national, and international sports tournaments. Register directly, showcase your skills.</div>
        
        </div>
-       <div className=" rounded-md shadow-md shadow-gray-500/50 p-4 flex flex-col items-center justify-center">
-       
+       <div className=" rounded-md shadow-md shadow-gray-500/50 p-4 flex flex-col items-center justify-center transition-all duration-500 ease-in-out
+  hover:bg-gradient-to-b hover:from-black hover:via-[#180020] hover:to-[#2a002f]">
+       <div className="text-[50px]"><GiStairsGoal/></div>
        <div className="text-[24px] font-bold text-center py-4">Success Stories & Spotlights</div>
        <div className="text-[20px] text-center">"Stay Ahead with the Latest Sports Events"</div>
         <div className="">Never miss a chance to compete. Browse local, national, and international sports tournaments. Register directly, showcase your skills.</div>
