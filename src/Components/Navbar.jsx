@@ -9,7 +9,8 @@ const Navbar = () => {
       
       {/* Left: Logo */}
       <div className="flex-1 flex items-center">
-        <h1 className="text-2xl font-bold">Nullspace</h1>
+        <img src="/favicon.svg" alt="Logo" className="h-8 w-8 mr-1"/>
+        <h1 className="text-2xl font-bold">NullSpace</h1>
       </div>
 
       {/* Center: Links */}

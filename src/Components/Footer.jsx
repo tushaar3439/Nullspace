@@ -1,4 +1,5 @@
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -10,10 +11,46 @@ const Footer = () => {
         
         {/* Center: Links */}
         <div className="flex gap-4 text-xs">
-          <a href="/" className="hover:text-white transition">Home</a>
-          <a href="/about" className="hover:text-white transition">About</a>
-          <a href="/services" className="hover:text-white transition">Services</a>
-          <a href="/contact" className="hover:text-white transition">Contact</a>
+          <NavLink 
+          to={"/"} 
+          className={({ isActive }) =>
+            isActive 
+              ? "font-bold px-3 py-1 text-white" 
+              : " px-3 py-1"
+          }
+        >
+          Home
+        </NavLink>
+        <NavLink 
+          to={"/about"} 
+          className={({ isActive }) =>
+            isActive 
+              ? "font-bold text-white px-3 py-1" 
+              : " px-3 py-1"
+          }
+        >
+          About
+        </NavLink>
+        <NavLink 
+          to={"/services"} 
+          className={({ isActive }) =>
+            isActive 
+              ? "font-bold text-white px-3 py-1" 
+              : " px-3 py-1"
+          }
+        >
+          Services
+        </NavLink>
+        <NavLink 
+          to={"/Opportunities"} 
+          className={({ isActive }) =>
+            isActive 
+              ? "font-bold text-white px-3 py-1" 
+              : " px-3 py-1 "
+          }
+        >
+          Opportunities
+        </NavLink>
         </div>
         
         {/* Right: Social Icons */}
