@@ -21,39 +21,39 @@ const Services = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-12 py-12">
 
-        <div className="flex flex-col justify-center items-center bg-black/60 backdrop-blur-md rounded-lg p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out">
+        <div className="flex flex-col justify-center items-center bg-black/60 backdrop-blur-md rounded-lg p-6 shadow-lg hover:bg-gradient-to-br hover:from-gray-900 hover:via-black hover:to-gray-800 ease-in-out">
         <div className="text-2xl font-bold mb-4">Personal Training</div>
         <div className="">One-on-one sessions tailored to your fitness goals.</div>
         <a href="#" className="text-blue-400 hover:underline flex items-center gap-2">Learn More<FaArrowRight/></a>
         </div>
         
 
-        <div className="flex flex-col justify-center items-center bg-black/60 backdrop-blur-md rounded-lg p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out">
+        <div className="flex flex-col justify-center items-center bg-black/60 backdrop-blur-md rounded-lg p-6 shadow-lg hover:bg-gradient-to-br hover:from-gray-900 hover:via-black hover:to-gray-800 ease-in-out">
         <div className="text-2xl font-bold mb-4">Group Fitness Classes</div>
         <div className="">High-energy workouts to stay motivated with.</div>
         <a href="#" className="text-blue-400 hover:underline flex items-center gap-2">Learn More<FaArrowRight/></a>
         </div>
         
 
-         <div className="flex flex-col justify-center items-center bg-black/60 backdrop-blur-md rounded-lg p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out">
+         <div className="flex flex-col justify-center items-center bg-black/60 backdrop-blur-md rounded-lg p-6 shadow-lg hover:bg-gradient-to-br hover:from-gray-900 hover:via-black hover:to-gray-800 ease-in-out">
         <div className="text-2xl font-bold mb-4">Nutrition Coaching</div>
         <div className="">Customized diet & meals.</div>
         <a href="#" className="text-blue-400 hover:underline flex items-center gap-2">Learn More<FaArrowRight/></a>
         </div>
 
-         <div className="flex flex-col justify-center items-center bg-black/60 backdrop-blur-md rounded-lg p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out">
+         <div className="flex flex-col justify-center items-center bg-black/60 backdrop-blur-md rounded-lg p-6 shadow-lg hover:bg-gradient-to-br hover:from-gray-900 hover:via-black hover:to-gray-800 ease-in-out">
         <div className="text-2xl font-bold mb-4">Strength & Conditioning</div>
         <div className="">Build power, endurance, speed, and promo.</div>
         <a href="#" className="text-blue-400 hover:underline flex items-center gap-2">Learn More<FaArrowRight/></a>
         </div>
 
-         <div className="flex flex-col justify-center items-center bg-black/60 backdrop-blur-md rounded-lg p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out">
+         <div className="flex flex-col justify-center items-center bg-black/60 backdrop-blur-md rounded-lg p-6 shadow-lg hover:bg-gradient-to-br hover:from-gray-900 hover:via-black hover:to-gray-800 ease-in-out">
         <div className="text-2xl font-bold mb-4">Yoga & Flexibility</div>
         <div className="">Mind-body balance through training.</div>
         <a href="#" className="text-blue-400 hover:underline flex items-center gap-2">Learn More<FaArrowRight/></a>
         </div>
 
-         <div className="flex flex-col justify-center items-center bg-black/60 backdrop-blur-md rounded-lg p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out">
+         <div className="flex flex-col justify-center items-center bg-black/60 backdrop-blur-md rounded-lg p-6 shadow-lg hover:bg-gradient-to-br hover:from-gray-900 hover:via-black hover:to-gray-800 ease-in-out">
         <div className="text-2xl font-bold mb-4">Online Coaching</div>
         <div className="">Virtual training + progress tracking anytime.</div>
         <a href="#" className="text-blue-400 hover:underline flex items-center gap-2">Learn More<FaArrowRight/></a>
